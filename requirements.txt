@@ -1,5 +1,5 @@
 django
 djangorestframework
 pdfplumber
-spacy
+spacy==3.7.2
 Pillow
