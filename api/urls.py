@@ -1,6 +1,6 @@
 from django.urls import path
-from .views import PDFUploadView
+from .views import PDFOCRView
 
 urlpatterns = [
-    path('api/upload/', PDFUploadView.as_view(), name='pdf-upload'),
+    path('api/upload/', PDFOCRView.as_view(), name='pdf-upload'),
 ]

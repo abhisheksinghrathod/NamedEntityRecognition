@@ -3,3 +3,6 @@ djangorestframework
 pdfplumber
 spacy==3.7.2
 Pillow
+pytesseract
+opencv-python
+spellchecker

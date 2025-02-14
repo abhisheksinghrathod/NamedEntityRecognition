@@ -2,66 +2,68 @@ from django.shortcuts import render
 from rest_framework.views import APIView
 from rest_framework.response import Response
 from rest_framework.parsers import MultiPartParser, FormParser
-from .models import PDFDocument
-from .serializers import PDFDocumentSerializer
 import pdfplumber
-import spacy
-from spacy.matcher import Matcher
+import pytesseract
+import cv2
+import numpy as np
+from PIL import Image
+import logging
 
-# Load spaCy model
-nlp = spacy.load("en_core_web_sm")
-
-# Initialize Matcher
-matcher = Matcher(nlp.vocab)
-
-# Define patterns for common email-like fields
-patterns = [
-    {"label": "FROM", "pattern": [{"LOWER": "from"}, {"IS_PUNCT": True, "OP": "?"}, {"IS_SPACE": True, "OP": "*"}, {"IS_ALPHA": True, "OP": "+"}]},
-    {"label": "TO", "pattern": [{"LOWER": "to"}, {"IS_PUNCT": True, "OP": "?"}, {"IS_SPACE": True, "OP": "*"}, {"IS_ALPHA": True, "OP": "+"}]},
-    {"label": "DATE", "pattern": [{"LOWER": "date"}, {"IS_PUNCT": True, "OP": "?"}, {"IS_SPACE": True, "OP": "*"}, {"IS_DIGIT": True, "OP": "+"}]},
-    {"label": "SUBJECT", "pattern": [{"LOWER": "subject"}, {"IS_PUNCT": True, "OP": "?"}, {"IS_SPACE": True, "OP": "*"}, {"IS_ALPHA": True, "OP": "+"}]}
-]
-
-# Add patterns to matcher
-for p in patterns:
-    matcher.add(p["label"], [p["pattern"]])
-
-class PDFUploadView(APIView):
-    queryset = PDFDocument.objects.all()
-    serializer_class = PDFDocumentSerializer
+class PDFOCRView(APIView):
     parser_classes = (MultiPartParser, FormParser)
 
-    def perform_create(self, serializer):
-        serializer.save()
-
     def post(self, request, *args, **kwargs):
+        file_obj = request.FILES.get('file')
+        manual_rotation = int(request.query_params.get('manual_rotation', 0))
         try:
-            file_obj = request.FILES.get('file')
-            if file_obj:
-                text = ""
-                with pdfplumber.open(file_obj) as pdf:
-                    for page in pdf.pages:
-                        text += page.extract_text() or ""
+            if not file_obj:
+                return Response({'error': 'No file uploaded'}, status=400)
 
-                # Apply NER
-                doc = nlp(text)
-                entities = [{'text': ent.text, 'label': ent.label_} for ent in doc.ents]
-
-                # Apply rule-based matching
-                matches = matcher(doc)
-                for match_id, start, end in matches:
-                    label = nlp.vocab.strings[match_id]
-                    span = doc[start:end]
-                    entities.append({'label': label, 'text': span.text})
-
-                serializer = self.serializer_class(data=request.data)
-                if serializer.is_valid():
-                    serializer.save()
-                    return Response({
-                        'message': "PDF uploaded and processed successfully.",
-                        'entities': entities
-                    })
-                return Response(serializer.errors, status=400)
+            text = self.perform_ocr_on_pdf(file_obj, manual_rotation)
+            return Response({'message': 'OCR completed successfully.', 'extracted_text': text})
         except Exception as e:
-            print("file upload failed with error:", e)
-        return Response({'error': 'No file uploaded'}, status=400)
+            logging.error(f"Error processing OCR: {str(e)}")
+            return Response({'error': 'Failed to process file'}, status=500)
+
+    def perform_ocr_on_pdf(self, pdf_file, manual_rotation):
+        """Extract text from a PDF with optional rotation correction and table preservation."""
+        try:
+            ocr_text = ""
+            with pdfplumber.open(pdf_file) as pdf:
+                for page in pdf.pages:
+                    pil_image = page.to_image(resolution=300).original
+                    open_cv_image = cv2.cvtColor(np.array(pil_image), cv2.COLOR_RGB2BGR)
+                    gray_image = cv2.cvtColor(open_cv_image, cv2.COLOR_BGR2GRAY)
+
+                    osd = pytesseract.image_to_osd(gray_image, output_type=pytesseract.Output.DICT)
+                    angle = osd["rotate"] + manual_rotation
+
+                    if abs(angle) > 1:
+                        gray_image = self.rotate_image(gray_image, -angle)
+
+                    table_data = self.extract_table_data(page)
+                    if table_data:
+                        ocr_text += "---TABLE DETECTED---\n"
+                        for row in table_data:
+                            ocr_text += " | ".join([str(cell) or "" for cell in row]) + "\n"
+                        ocr_text += "---END OF TABLE---\n"
+
+                    processed_pil_image = Image.fromarray(gray_image)
+                    ocr_text += pytesseract.image_to_string(processed_pil_image, lang="eng")
+            return ocr_text
+        except Exception as e:
+            logging.error(f"Error during OCR processing: {str(e)}")
+            raise
+
+    def rotate_image(self, image, angle):
+        (h, w) = image.shape[:2]
+        center = (w // 2, h // 2)
+        rotation_matrix = cv2.getRotationMatrix2D(center, angle, 1.0)
+        return cv2.warpAffine(image, rotation_matrix, (w, h), flags=cv2.INTER_CUBIC, borderMode=cv2.BORDER_REPLICATE)
+
+    def extract_table_data(self, page):
+        try:
+            return page.extract_tables() or None
+        except Exception as e:
+            logging.error(f"Error extracting tables: {str(e)}")
+            return None
