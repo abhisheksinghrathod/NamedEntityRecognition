@@ -1,3 +1,7 @@
+import os.path
+
+from PyPDF2 import PdfReader, PdfWriter
+from django.conf import settings
 from django.shortcuts import render
 from rest_framework.views import APIView
 from rest_framework.response import Response
@@ -8,6 +12,46 @@ import cv2
 import numpy as np
 from PIL import Image
 import logging
+
+
+class SplitPDFView(APIView):
+    def post(self, request, *args, **kwargs):
+        pdf_file = request.FILES.get('pdf_file')
+        if not pdf_file:
+            return Response({"error": "No PDF file uploaded."}, status=400)
+
+        try:
+            reader = PdfReader(pdf_file)
+        except Exception as e:
+            return Response({"error": f"Error reading PDF: {str(e)}"}, status=400)
+
+        total_pages = len(reader.pages)
+        chunk_size = 5
+        saved_files = []
+
+        #Ensure MEDIA_ROOT exists
+        if not os.path.exists(settings.MEDIA_ROOT):
+            os.makedirs(settings.MEDIA_ROOT)
+
+        #SPlit the pdf into chunks and save each as a new PDF file
+        for i, start in enumerate(range(0,total_pages, chunk_size)):
+            writer = PdfWriter()
+            for page_num in range(start, min(start + chunk_size, total_pages)):
+                writer.add_page(reader.pages[page_num])
+
+            file_name = f"chunk {i+1}.pdf"
+            file_path = os.path.join(settings.MEDIA_ROOT, file_name)
+
+            with open(file_path, 'wb') as out_pdf:
+                writer.write(out_pdf)
+
+            saved_files.append(file_name)
+
+        return  Response({
+            "message": "PDF split successfully",
+            "total_chunks": len(saved_files),
+            "files": saved_files
+            }, status=200)
 
 class PDFOCRView(APIView):
     parser_classes = (MultiPartParser, FormParser)
