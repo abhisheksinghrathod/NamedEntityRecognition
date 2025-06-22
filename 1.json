@@ -1,0 +1,2641 @@
+{
+  "message": "PDF uploaded and processed successfully.",
+  "entities": [
+    {
+      "text": "10:59:24 AM",
+      "label": "TIME"
+    },
+    {
+      "text": "09-11 Jan 2023",
+      "label": "DATE"
+    },
+    {
+      "text": "Lila Nola",
+      "label": "PERSON"
+    },
+    {
+      "text": "Brazil",
+      "label": "GPE"
+    },
+    {
+      "text": "28.12.2022",
+      "label": "CARDINAL"
+    },
+    {
+      "text": "28/12/2022\nM/v",
+      "label": "PRODUCT"
+    },
+    {
+      "text": "2012",
+      "label": "DATE"
+    },
+    {
+      "text": "Bulk Carrier",
+      "label": "PERSON"
+    },
+    {
+      "text": "23,452",
+      "label": "CARDINAL"
+    },
+    {
+      "text": "12,109",
+      "label": "CARDINAL"
+    },
+    {
+      "text": "36,512mt / 10.55mtr",
+      "label": "CARDINAL"
+    },
+    {
+      "text": "9621041",
+      "label": "DATE"
+    },
+    {
+      "text": "179.99",
+      "label": "CARDINAL"
+    },
+    {
+      "text": "Breadth",
+      "label": "PRODUCT"
+    },
+    {
+      "text": "30.00",
+      "label": "CARDINAL"
+    },
+    {
+      "text": "14.70",
+      "label": "CARDINAL"
+    },
+    {
+      "text": "Vessel",
+      "label": "ORG"
+    },
+    {
+      "text": "5",
+      "label": "CARDINAL"
+    },
+    {
+      "text": "+ 5",
+      "label": "DATE"
+    },
+    {
+      "text": "BC",
+      "label": "ORG"
+    },
+    {
+      "text": "GRD",
+      "label": "ORG"
+    },
+    {
+      "text": "LLOYDS A1 OR EQUIVALENT",
+      "label": "ORG"
+    },
+    {
+      "text": "A1 PANDI COVERED",
+      "label": "PERSON"
+    },
+    {
+      "text": "Max",
+      "label": "PERSON"
+    },
+    {
+      "text": "9.906 M",
+      "label": "PRODUCT"
+    },
+    {
+      "text": "1",
+      "label": "CARDINAL"
+    },
+    {
+      "text": "4500",
+      "label": "CARDINAL"
+    },
+    {
+      "text": "2",
+      "label": "CARDINAL"
+    },
+    {
+      "text": "3",
+      "label": "CARDINAL"
+    },
+    {
+      "text": "4",
+      "label": "CARDINAL"
+    },
+    {
+      "text": "5",
+      "label": "CARDINAL"
+    },
+    {
+      "text": "32800",
+      "label": "CARDINAL"
+    },
+    {
+      "text": "3",
+      "label": "CARDINAL"
+    },
+    {
+      "text": "ETC",
+      "label": "ORG"
+    },
+    {
+      "text": "28",
+      "label": "CARDINAL"
+    },
+    {
+      "text": "December",
+      "label": "DATE"
+    },
+    {
+      "text": "UCE \\~\nETA Murmansk",
+      "label": "PERSON"
+    },
+    {
+      "text": "04-06/01/23",
+      "label": "DATE"
+    },
+    {
+      "text": "LAST 14 DAYS",
+      "label": "DATE"
+    },
+    {
+      "text": "Ghazaouet / Kavkaz",
+      "label": "ORG"
+    },
+    {
+      "text": "LAST 14 DAYS",
+      "label": "DATE"
+    },
+    {
+      "text": "2",
+      "label": "CARDINAL"
+    },
+    {
+      "text": "VOYAGE",
+      "label": "ORG"
+    },
+    {
+      "text": "12",
+      "label": "CARDINAL"
+    },
+    {
+      "text": "wp\n\\~\n\\~\nFULL CP",
+      "label": "PERSON"
+    },
+    {
+      "text": "80",
+      "label": "CARDINAL"
+    },
+    {
+      "text": "LLC",
+      "label": "ORG"
+    },
+    {
+      "text": "DUBAI",
+      "label": "GPE"
+    },
+    {
+      "text": "Lila Global ltd",
+      "label": "ORG"
+    },
+    {
+      "text": "80",
+      "label": "CARDINAL"
+    },
+    {
+      "text": "Broad Street",
+      "label": "FAC"
+    },
+    {
+      "text": "101175",
+      "label": "DATE"
+    },
+    {
+      "text": "majuro marshall",
+      "label": "PERSON"
+    },
+    {
+      "text": "96960",
+      "label": "CARDINAL"
+    },
+    {
+      "text": "VOYAGE",
+      "label": "ORG"
+    },
+    {
+      "text": "VOYAGE",
+      "label": "ORG"
+    },
+    {
+      "text": "HOLDS/HATCHES",
+      "label": "ORG"
+    },
+    {
+      "text": "VESSEL",
+      "label": "GPE"
+    },
+    {
+      "text": "HOLDS",
+      "label": "ORG"
+    },
+    {
+      "text": "11",
+      "label": "CARDINAL"
+    },
+    {
+      "text": "MAX",
+      "label": "ORG"
+    },
+    {
+      "text": "TT",
+      "label": "PRODUCT"
+    },
+    {
+      "text": "STRENGHTH",
+      "label": "PRODUCT"
+    },
+    {
+      "text": "OWNS",
+      "label": "ORG"
+    },
+    {
+      "text": "1",
+      "label": "CARDINAL"
+    },
+    {
+      "text": "2",
+      "label": "CARDINAL"
+    },
+    {
+      "text": "3",
+      "label": "CARDINAL"
+    },
+    {
+      "text": "4",
+      "label": "CARDINAL"
+    },
+    {
+      "text": "5",
+      "label": "CARDINAL"
+    },
+    {
+      "text": "6",
+      "label": "CARDINAL"
+    },
+    {
+      "text": "7",
+      "label": "CARDINAL"
+    },
+    {
+      "text": "12/31/2024Page",
+      "label": "CARDINAL"
+    },
+    {
+      "text": "3",
+      "label": "CARDINAL"
+    },
+    {
+      "text": "8)",
+      "label": "CARDINAL"
+    },
+    {
+      "text": "9",
+      "label": "CARDINAL"
+    },
+    {
+      "text": "10",
+      "label": "CARDINAL"
+    },
+    {
+      "text": "11",
+      "label": "CARDINAL"
+    },
+    {
+      "text": "12",
+      "label": "CARDINAL"
+    },
+    {
+      "text": "13",
+      "label": "CARDINAL"
+    },
+    {
+      "text": "DOC",
+      "label": "ORG"
+    },
+    {
+      "text": "14",
+      "label": "CARDINAL"
+    },
+    {
+      "text": "15",
+      "label": "CARDINAL"
+    },
+    {
+      "text": "16",
+      "label": "CARDINAL"
+    },
+    {
+      "text": "SMC",
+      "label": "ORG"
+    },
+    {
+      "text": "MARKS ARE CLEARELY PAINTED",
+      "label": "ORG"
+    },
+    {
+      "text": "VISIBLE ON",
+      "label": "ORG"
+    },
+    {
+      "text": "VISIBLE MARKS",
+      "label": "PERSON"
+    },
+    {
+      "text": "VISIBLE MARKS",
+      "label": "PERSON"
+    },
+    {
+      "text": "ON BOARD",
+      "label": "ORG"
+    },
+    {
+      "text": "UP",
+      "label": "GPE"
+    },
+    {
+      "text": "four",
+      "label": "CARDINAL"
+    },
+    {
+      "text": "HOLDS SIMULTANEOUSLY",
+      "label": "ORG"
+    },
+    {
+      "text": "CRANES",
+      "label": "ORG"
+    },
+    {
+      "text": "GRABS ON BOARD",
+      "label": "ORG"
+    },
+    {
+      "text": "4x10 cbm -\n",
+      "label": "PERSON"
+    },
+    {
+      "text": "CHRTRS",
+      "label": "ORG"
+    },
+    {
+      "text": "PDF FILE ATTACHED",
+      "label": "ORG"
+    },
+    {
+      "text": "1ST",
+      "label": "DATE"
+    },
+    {
+      "text": "ONE",
+      "label": "CARDINAL"
+    },
+    {
+      "text": "\\~\n\\~",
+      "label": "PERSON"
+    },
+    {
+      "text": "Business Center",
+      "label": "ORG"
+    },
+    {
+      "text": "Ras Al Khaimah",
+      "label": "PERSON"
+    },
+    {
+      "text": "United Arab Emirates",
+      "label": "GPE"
+    },
+    {
+      "text": "35.000",
+      "label": "CARDINAL"
+    },
+    {
+      "text": "MT 10",
+      "label": "ORG"
+    },
+    {
+      "text": "PCT",
+      "label": "ORG"
+    },
+    {
+      "text": "33000",
+      "label": "CARDINAL"
+    },
+    {
+      "text": "Master-",
+      "label": "PERSON"
+    },
+    {
+      "text": "09-11 January",
+      "label": "DATE"
+    },
+    {
+      "text": "1SB",
+      "label": "CARDINAL"
+    },
+    {
+      "text": "7,000",
+      "label": "CARDINAL"
+    },
+    {
+      "text": "MT PWWD",
+      "label": "ORG"
+    },
+    {
+      "text": "24",
+      "label": "CARDINAL"
+    },
+    {
+      "text": "BRAZIL",
+      "label": "GPE"
+    },
+    {
+      "text": "CONDE-RIO",
+      "label": "ORG"
+    },
+    {
+      "text": "4.000",
+      "label": "CARDINAL"
+    },
+    {
+      "text": "SSHINC",
+      "label": "ORG"
+    },
+    {
+      "text": "CONDE",
+      "label": "PERSON"
+    },
+    {
+      "text": "4.000",
+      "label": "CARDINAL"
+    },
+    {
+      "text": "SSHINC",
+      "label": "ORG"
+    },
+    {
+      "text": "ARATU",
+      "label": "ORG"
+    },
+    {
+      "text": "4.000",
+      "label": "CARDINAL"
+    },
+    {
+      "text": "SSHINC",
+      "label": "ORG"
+    },
+    {
+      "text": "VITORIA",
+      "label": "ORG"
+    },
+    {
+      "text": "5.000",
+      "label": "CARDINAL"
+    },
+    {
+      "text": "SSHINC",
+      "label": "ORG"
+    },
+    {
+      "text": "6.000",
+      "label": "CARDINAL"
+    },
+    {
+      "text": "SSHINC",
+      "label": "ORG"
+    },
+    {
+      "text": "SANTOS",
+      "label": "ORG"
+    },
+    {
+      "text": "6.000",
+      "label": "CARDINAL"
+    },
+    {
+      "text": "SSHINC",
+      "label": "ORG"
+    },
+    {
+      "text": "6.000",
+      "label": "CARDINAL"
+    },
+    {
+      "text": "SSHINC",
+      "label": "ORG"
+    },
+    {
+      "text": "24",
+      "label": "CARDINAL"
+    },
+    {
+      "text": "first",
+      "label": "ORDINAL"
+    },
+    {
+      "text": "at least 11.10mtrs",
+      "label": "CARDINAL"
+    },
+    {
+      "text": "1/1",
+      "label": "CARDINAL"
+    },
+    {
+      "text": "7,000",
+      "label": "CARDINAL"
+    },
+    {
+      "text": "SSHINC",
+      "label": "ORG"
+    },
+    {
+      "text": "EWRI INCLUDING",
+      "label": "ORG"
+    },
+    {
+      "text": "4",
+      "label": "CARDINAL"
+    },
+    {
+      "text": "PUT/INFRAMAR/TUIP",
+      "label": "ORG"
+    },
+    {
+      "text": "\\~\nITAQUI \\~- USD 41.25",
+      "label": "PERSON"
+    },
+    {
+      "text": "CONDE - USD 42.25",
+      "label": "ORG"
+    },
+    {
+      "text": "ARATU - USD 44.25PMT",
+      "label": "PRODUCT"
+    },
+    {
+      "text": "HRS",
+      "label": "ORG"
+    },
+    {
+      "text": "2PM/",
+      "label": "CARDINAL"
+    },
+    {
+      "text": "8AM",
+      "label": "CARDINAL"
+    },
+    {
+      "text": "1400 HOURS",
+      "label": "TIME"
+    },
+    {
+      "text": "1200",
+      "label": "DATE"
+    },
+    {
+      "text": "NEXT DAY",
+      "label": "DATE"
+    },
+    {
+      "text": "HRS",
+      "label": "ORG"
+    },
+    {
+      "text": "1400 HOURS\n",
+      "label": "QUANTITY"
+    },
+    {
+      "text": "1200",
+      "label": "DATE"
+    },
+    {
+      "text": "0800",
+      "label": "DATE"
+    },
+    {
+      "text": "LOAD",
+      "label": "ORG"
+    },
+    {
+      "text": "BERTH",
+      "label": "PERSON"
+    },
+    {
+      "text": "BERTH",
+      "label": "PERSON"
+    },
+    {
+      "text": "LAYBY-BERTH",
+      "label": "PERSON"
+    },
+    {
+      "text": "95",
+      "label": "CARDINAL"
+    },
+    {
+      "text": "PCT PAYABLE",
+      "label": "ORG"
+    },
+    {
+      "text": "3",
+      "label": "CARDINAL"
+    },
+    {
+      "text": "20 DAYS",
+      "label": "DATE"
+    },
+    {
+      "text": "100",
+      "label": "CARDINAL"
+    },
+    {
+      "text": "PCT",
+      "label": "ORG"
+    },
+    {
+      "text": "\\~\n- CHARTRS REQUIRE",
+      "label": "PERSON"
+    },
+    {
+      "text": "CLEAN ON BOARD'",
+      "label": "ORG"
+    },
+    {
+      "text": "5",
+      "label": "CARDINAL"
+    },
+    {
+      "text": "CLEAN ON BOARD B/L MASTER",
+      "label": "ORG"
+    },
+    {
+      "text": "B/L ARE NOT AVAILABLE",
+      "label": "ORG"
+    },
+    {
+      "text": "CHRTRS",
+      "label": "ORG"
+    },
+    {
+      "text": "LOI",
+      "label": "ORG"
+    },
+    {
+      "text": "CHRTRS",
+      "label": "ORG"
+    },
+    {
+      "text": "CHRTRS",
+      "label": "ORG"
+    },
+    {
+      "text": "WWWW",
+      "label": "PERSON"
+    },
+    {
+      "text": "\\~\n- CHRTRS",
+      "label": "PERSON"
+    },
+    {
+      "text": "OPTION",
+      "label": "ORG"
+    },
+    {
+      "text": "SECOND",
+      "label": "ORDINAL"
+    },
+    {
+      "text": "2ND",
+      "label": "CARDINAL"
+    },
+    {
+      "text": "LONDON",
+      "label": "GPE"
+    },
+    {
+      "text": "YORK ANTWERP RULES",
+      "label": "PERSON"
+    },
+    {
+      "text": "2016",
+      "label": "DATE"
+    },
+    {
+      "text": "TAXES",
+      "label": "ORG"
+    },
+    {
+      "text": "TAXES",
+      "label": "ORG"
+    },
+    {
+      "text": "FRT",
+      "label": "ORG"
+    },
+    {
+      "text": "CREW",
+      "label": "ORG"
+    },
+    {
+      "text": "THE TOTAL QUANTITY AS",
+      "label": "ORG"
+    },
+    {
+      "text": "FIRST",
+      "label": "ORDINAL"
+    },
+    {
+      "text": "CHRTS",
+      "label": "ORG"
+    },
+    {
+      "text": "OPTION",
+      "label": "ORG"
+    },
+    {
+      "text": "CARGO",
+      "label": "NORP"
+    },
+    {
+      "text": "TERMS",
+      "label": "ORG"
+    },
+    {
+      "text": "CONDITIONS",
+      "label": "ORG"
+    },
+    {
+      "text": "OWNS LOA",
+      "label": "ORG"
+    },
+    {
+      "text": "OPTION",
+      "label": "ORG"
+    },
+    {
+      "text": "BLS",
+      "label": "ORG"
+    },
+    {
+      "text": "VESSEL'S",
+      "label": "ORG"
+    },
+    {
+      "text": "1ST",
+      "label": "DATE"
+    },
+    {
+      "text": "HOLDS",
+      "label": "ORG"
+    },
+    {
+      "text": "6",
+      "label": "CARDINAL"
+    },
+    {
+      "text": "1.DOCX",
+      "label": "DATE"
+    },
+    {
+      "text": "2020",
+      "label": "DATE"
+    },
+    {
+      "text": "2.5%",
+      "label": "PERCENT"
+    },
+    {
+      "text": "\\~\nBrgds",
+      "label": "PERSON"
+    },
+    {
+      "label": "TO",
+      "text": "TO USG"
+    },
+    {
+      "label": "TO",
+      "text": "TO BE"
+    },
+    {
+      "label": "TO",
+      "text": "TO BE FULLY"
+    },
+    {
+      "label": "TO",
+      "text": "TO BE FULLY CLASSED"
+    },
+    {
+      "label": "TO",
+      "text": "TO BE FULLY CLASSED AND"
+    },
+    {
+      "label": "TO",
+      "text": "TO BE FULLY CLASSED AND FULLY"
+    },
+    {
+      "label": "TO",
+      "text": "TO BE FULLY CLASSED AND FULLY CERTIFICATED"
+    },
+    {
+      "label": "TO",
+      "text": "TO BE FULLY CLASSED AND FULLY CERTIFICATED FOR"
+    },
+    {
+      "label": "TO",
+      "text": "TO BE FULLY CLASSED AND FULLY CERTIFICATED FOR THE"
+    },
+    {
+      "label": "TO",
+      "text": "TO BE FULLY CLASSED AND FULLY CERTIFICATED FOR THE DURATION"
+    },
+    {
+      "label": "TO",
+      "text": "TO BE FULLY CLASSED AND FULLY CERTIFICATED FOR THE DURATION OF"
+    },
+    {
+      "label": "TO",
+      "text": "TO BE FULLY CLASSED AND FULLY CERTIFICATED FOR THE DURATION OF THE"
+    },
+    {
+      "label": "TO",
+      "text": "TO BE FULLY CLASSED AND FULLY CERTIFICATED FOR THE DURATION OF THE VOYAGE"
+    },
+    {
+      "label": "TO",
+      "text": "TO BE FULLY CLASSED AND FULLY CERTIFICATED FOR THE DURATION OF THE VOYAGE AND"
+    },
+    {
+      "label": "TO",
+      "text": "TO BE FULLY CLASSED AND FULLY CERTIFICATED FOR THE DURATION OF THE VOYAGE AND C"
+    },
+    {
+      "label": "TO",
+      "text": "TO EXCEED"
+    },
+    {
+      "label": "TO",
+      "text": "TO EXCEED VSL"
+    },
+    {
+      "label": "TO",
+      "text": "TO BE"
+    },
+    {
+      "label": "TO",
+      "text": "TO BE LOADED"
+    },
+    {
+      "label": "TO",
+      "text": "TO BE LOADED INTO"
+    },
+    {
+      "label": "TO",
+      "text": "TO BE LOADED INTO UNOBSTRUCTED"
+    },
+    {
+      "label": "TO",
+      "text": "TO BE LOADED INTO UNOBSTRUCTED CLEAR"
+    },
+    {
+      "label": "TO",
+      "text": "TO BE LOADED INTO UNOBSTRUCTED CLEAR MAIN"
+    },
+    {
+      "label": "TO",
+      "text": "TO PROVIDE"
+    },
+    {
+      "label": "TO",
+      "text": "TO ENSURE"
+    },
+    {
+      "label": "TO",
+      "text": "TO ENSURE VESSEL"
+    },
+    {
+      "label": "TO",
+      "text": "TO\nDATE"
+    },
+    {
+      "label": "TO",
+      "text": "TO\nDATE CERTIFICATES"
+    },
+    {
+      "label": "TO",
+      "text": "TO\nDATE CERTIFICATES ESSENTIAL"
+    },
+    {
+      "label": "TO",
+      "text": "TO\nDATE CERTIFICATES ESSENTIAL INCLUDING"
+    },
+    {
+      "label": "TO",
+      "text": "TO\nDATE CERTIFICATES ESSENTIAL INCLUDING SOUNDING"
+    },
+    {
+      "label": "TO",
+      "text": "TO\nDATE CERTIFICATES ESSENTIAL INCLUDING SOUNDING TABLES"
+    },
+    {
+      "label": "TO",
+      "text": "TO COUNT"
+    },
+    {
+      "label": "TO",
+      "text": "TO THE"
+    },
+    {
+      "label": "TO",
+      "text": "TO THE NUMBER"
+    },
+    {
+      "label": "TO",
+      "text": "TO THE NUMBER OF"
+    },
+    {
+      "label": "TO",
+      "text": "TO THE NUMBER OF HOLDS"
+    },
+    {
+      "label": "TO",
+      "text": "TO THE NUMBER OF HOLDS AFFECTED"
+    },
+    {
+      "label": "TO",
+      "text": "TO PROVIDE"
+    },
+    {
+      "label": "TO",
+      "text": "TO PROVIDE SHORE"
+    },
+    {
+      "label": "TO",
+      "text": "TO PROVIDE SHORE CRANES"
+    },
+    {
+      "label": "TO",
+      "text": "TO PROVIDE SHORE CRANES IF"
+    },
+    {
+      "label": "TO",
+      "text": "TO ADVISE"
+    },
+    {
+      "label": "TO",
+      "text": "TO ADVISE IF"
+    },
+    {
+      "label": "TO",
+      "text": "TO ADVISE IF GRABS"
+    },
+    {
+      "label": "TO",
+      "text": "TO ADVISE IF GRABS ON"
+    },
+    {
+      "label": "TO",
+      "text": "TO ADVISE IF GRABS ON BOARD"
+    },
+    {
+      "label": "TO",
+      "text": "TO ADVISE IF GRABS ON BOARD WHICH"
+    },
+    {
+      "label": "TO",
+      "text": "TO ADVISE IF GRABS ON BOARD WHICH CHRS"
+    },
+    {
+      "label": "TO",
+      "text": "TO HAVE"
+    },
+    {
+      "label": "TO",
+      "text": "TO HAVE RIGHT"
+    },
+    {
+      "label": "TO",
+      "text": "TO HAVE RIGHT TO"
+    },
+    {
+      "label": "TO",
+      "text": "TO HAVE RIGHT TO PERFORM"
+    },
+    {
+      "label": "TO",
+      "text": "TO PERFORM"
+    },
+    {
+      "label": "TO",
+      "text": "TO HAVE RIGHT TO PERFORM ULD"
+    },
+    {
+      "label": "TO",
+      "text": "TO PERFORM ULD"
+    },
+    {
+      "label": "TO",
+      "text": "TO INFORM"
+    },
+    {
+      "label": "TO",
+      "text": "TO INFORM OWNERS"
+    },
+    {
+      "label": "TO",
+      "text": "TO INFORM OWNERS ABOUT"
+    },
+    {
+      "label": "TO",
+      "text": "TO INFORM OWNERS ABOUT SUCH"
+    },
+    {
+      "label": "TO",
+      "text": "TO INFORM OWNERS ABOUT SUCH REQUIREMENT"
+    },
+    {
+      "label": "TO",
+      "text": "TO INFORM OWNERS ABOUT SUCH REQUIREMENT UPON"
+    },
+    {
+      "label": "TO",
+      "text": "TO INFORM OWNERS ABOUT SUCH REQUIREMENT UPON NOMINATING"
+    },
+    {
+      "label": "TO",
+      "text": "TO INFORM OWNERS ABOUT SUCH REQUIREMENT UPON NOMINATING THE"
+    },
+    {
+      "label": "TO",
+      "text": "TO INFORM OWNERS ABOUT SUCH REQUIREMENT UPON NOMINATING THE LAYCAN"
+    },
+    {
+      "label": "TO",
+      "text": "TO APPLY"
+    },
+    {
+      "label": "TO",
+      "text": "TO APPLY AS"
+    },
+    {
+      "label": "TO",
+      "text": "TO APPLY AS FOLLOWS"
+    },
+    {
+      "label": "TO",
+      "text": "TO A"
+    },
+    {
+      "label": "TO",
+      "text": "TO A MASTER"
+    },
+    {
+      "label": "TO",
+      "text": "TO A MASTER OF"
+    },
+    {
+      "label": "TO",
+      "text": "TO A MASTER OF A"
+    },
+    {
+      "label": "TO",
+      "text": "TO A MASTER OF A VESSEL"
+    },
+    {
+      "label": "TO",
+      "text": "TO A MASTER OF A VESSEL AND"
+    },
+    {
+      "label": "TO",
+      "text": "TO A MASTER OF A VESSEL AND A"
+    },
+    {
+      "label": "TO",
+      "text": "TO A MASTER OF A VESSEL AND A SIGNED"
+    },
+    {
+      "label": "TO",
+      "text": "TO A MASTER OF A VESSEL AND A SIGNED COPY"
+    },
+    {
+      "label": "TO",
+      "text": "TO A MASTER OF A VESSEL AND A SIGNED COPY MUST"
+    },
+    {
+      "label": "TO",
+      "text": "TO A MASTER OF A VESSEL AND A SIGNED COPY MUST BE"
+    },
+    {
+      "label": "TO",
+      "text": "TO A MASTER OF A VESSEL AND A SIGNED COPY MUST BE OBTAINED"
+    },
+    {
+      "label": "TO",
+      "text": "TO A MASTER OF A VESSEL AND A SIGNED COPY MUST BE OBTAINED FROM"
+    },
+    {
+      "label": "TO",
+      "text": "TO A MASTER OF A VESSEL AND A SIGNED COPY MUST BE OBTAINED FROM HIM"
+    },
+    {
+      "label": "FROM",
+      "text": "FROM HIM"
+    },
+    {
+      "label": "TO",
+      "text": "TO A MASTER OF A VESSEL AND A SIGNED COPY MUST BE OBTAINED FROM HIM ON"
+    },
+    {
+      "label": "FROM",
+      "text": "FROM HIM ON"
+    },
+    {
+      "label": "TO",
+      "text": "TO A MASTER OF A VESSEL AND A SIGNED COPY MUST BE OBTAINED FROM HIM ON ARRIVAL"
+    },
+    {
+      "label": "FROM",
+      "text": "FROM HIM ON ARRIVAL"
+    },
+    {
+      "label": "TO",
+      "text": "TO A MASTER OF A VESSEL AND A SIGNED COPY MUST BE OBTAINED FROM HIM ON ARRIVAL BEFORE"
+    },
+    {
+      "label": "FROM",
+      "text": "FROM HIM ON ARRIVAL BEFORE"
+    },
+    {
+      "label": "TO",
+      "text": "TO A MASTER OF A VESSEL AND A SIGNED COPY MUST BE OBTAINED FROM HIM ON ARRIVAL BEFORE LOADING"
+    },
+    {
+      "label": "FROM",
+      "text": "FROM HIM ON ARRIVAL BEFORE LOADING"
+    },
+    {
+      "label": "TO",
+      "text": "TO ALL"
+    },
+    {
+      "label": "TO",
+      "text": "TO ALL THE"
+    },
+    {
+      "label": "TO",
+      "text": "TO ALL THE DOCUMENTS"
+    },
+    {
+      "label": "TO",
+      "text": "TO ALL THE DOCUMENTS RELATED"
+    },
+    {
+      "label": "TO",
+      "text": "TO ALL THE DOCUMENTS RELATED TO"
+    },
+    {
+      "label": "TO",
+      "text": "TO ALL THE DOCUMENTS RELATED TO THIS"
+    },
+    {
+      "label": "TO",
+      "text": "TO THIS"
+    },
+    {
+      "label": "TO",
+      "text": "TO ALL THE DOCUMENTS RELATED TO THIS FIXTURE"
+    },
+    {
+      "label": "TO",
+      "text": "TO THIS FIXTURE"
+    },
+    {
+      "label": "TO",
+      "text": "TO LEAVE"
+    },
+    {
+      "label": "TO",
+      "text": "TO LEAVE THE"
+    },
+    {
+      "label": "TO",
+      "text": "TO LEAVE THE SHIP"
+    },
+    {
+      "label": "FROM",
+      "text": "from the"
+    },
+    {
+      "label": "TO",
+      "text": "TO VERIFY"
+    },
+    {
+      "label": "TO",
+      "text": "to have"
+    },
+    {
+      "label": "TO",
+      "text": "to have at"
+    },
+    {
+      "label": "TO",
+      "text": "to have at least"
+    },
+    {
+      "label": "TO",
+      "text": "TO BE"
+    },
+    {
+      "label": "TO",
+      "text": "TO BE ON"
+    },
+    {
+      "label": "TO",
+      "text": "TO BE ON CHARTERERS"
+    },
+    {
+      "label": "TO",
+      "text": "TO BE"
+    },
+    {
+      "label": "TO",
+      "text": "TO BE RECALCULATED"
+    },
+    {
+      "label": "TO",
+      "text": "TO BE RECALCULATED ON"
+    },
+    {
+      "label": "TO",
+      "text": "TO BE RECALCULATED ON OPEN"
+    },
+    {
+      "label": "TO",
+      "text": "TO BE RECALCULATED ON OPEN BOOK"
+    },
+    {
+      "label": "TO",
+      "text": "TO BE RECALCULATED ON OPEN BOOK BSS"
+    },
+    {
+      "label": "TO",
+      "text": "TO BE RECALCULATED ON OPEN BOOK BSS USING"
+    },
+    {
+      "label": "TO",
+      "text": "TO BE RECALCULATED ON OPEN BOOK BSS USING TCE"
+    },
+    {
+      "label": "TO",
+      "text": "TO BE"
+    },
+    {
+      "label": "TO",
+      "text": "TO BE ISSUED"
+    },
+    {
+      "label": "TO",
+      "text": "TO BE ISSUED FOR"
+    },
+    {
+      "label": "TO",
+      "text": "TO BE ISSUED FOR EACH"
+    },
+    {
+      "label": "TO",
+      "text": "TO BE ISSUED FOR EACH PORT"
+    },
+    {
+      "label": "TO",
+      "text": "TO BE"
+    },
+    {
+      "label": "TO",
+      "text": "TO BE DECLARED"
+    },
+    {
+      "label": "TO",
+      "text": "TO BE DECLARED LATEST"
+    },
+    {
+      "label": "TO",
+      "text": "TO BE"
+    },
+    {
+      "label": "TO",
+      "text": "TO BE TENDERED"
+    },
+    {
+      "label": "TO",
+      "text": "TO BE TENDERED WITHIN"
+    },
+    {
+      "label": "TO",
+      "text": "TO BE TENDERED WITHIN WORKING"
+    },
+    {
+      "label": "TO",
+      "text": "TO BE TENDERED WITHIN WORKING HOURS"
+    },
+    {
+      "label": "TO",
+      "text": "TO BE TENDERED WITHIN WORKING HOURS MONDAY"
+    },
+    {
+      "label": "TO",
+      "text": "TO COUNT"
+    },
+    {
+      "label": "TO",
+      "text": "TO COUNT AS"
+    },
+    {
+      "label": "TO",
+      "text": "TO COUNT AS PER"
+    },
+    {
+      "label": "TO",
+      "text": "TO START"
+    },
+    {
+      "label": "TO",
+      "text": "TO START COUNTING"
+    },
+    {
+      "label": "TO",
+      "text": "TO START COUNTING FROM"
+    },
+    {
+      "label": "TO",
+      "text": "TO START"
+    },
+    {
+      "label": "TO",
+      "text": "TO START COUNTING"
+    },
+    {
+      "label": "TO",
+      "text": "TO START COUNTING FROM"
+    },
+    {
+      "label": "TO",
+      "text": "TO BE"
+    },
+    {
+      "label": "TO",
+      "text": "TO BE TENDERED"
+    },
+    {
+      "label": "TO",
+      "text": "TO BE TENDERED WITHIN"
+    },
+    {
+      "label": "TO",
+      "text": "TO BE TENDERED WITHIN WORKING"
+    },
+    {
+      "label": "TO",
+      "text": "TO BE TENDERED WITHIN WORKING HOURS"
+    },
+    {
+      "label": "TO",
+      "text": "TO BE TENDERED WITHIN WORKING HOURS MONDAY"
+    },
+    {
+      "label": "TO",
+      "text": "TO COUNT"
+    },
+    {
+      "label": "TO",
+      "text": "TO COUNT AS"
+    },
+    {
+      "label": "TO",
+      "text": "TO COUNT AS PER"
+    },
+    {
+      "label": "TO",
+      "text": "TO START"
+    },
+    {
+      "label": "TO",
+      "text": "TO START COUNTING"
+    },
+    {
+      "label": "TO",
+      "text": "TO START COUNTING FROM"
+    },
+    {
+      "label": "TO",
+      "text": "TO START"
+    },
+    {
+      "label": "TO",
+      "text": "TO START COUNTING"
+    },
+    {
+      "label": "TO",
+      "text": "TO START COUNTING FROM"
+    },
+    {
+      "label": "TO",
+      "text": "TO COUNT"
+    },
+    {
+      "label": "TO",
+      "text": "TO COUNT ONLY"
+    },
+    {
+      "label": "TO",
+      "text": "TO LOAD"
+    },
+    {
+      "label": "TO",
+      "text": "TO COUNT"
+    },
+    {
+      "label": "TO",
+      "text": "TO HAVE"
+    },
+    {
+      "label": "TO",
+      "text": "TO HAVE THE"
+    },
+    {
+      "label": "TO",
+      "text": "TO HAVE THE RIGHT"
+    },
+    {
+      "label": "TO",
+      "text": "TO HAVE THE RIGHT TENDERING"
+    },
+    {
+      "label": "TO",
+      "text": "TO HAVE THE RIGHT TENDERING NOR"
+    },
+    {
+      "label": "TO",
+      "text": "TO HAVE THE RIGHT TENDERING NOR BY"
+    },
+    {
+      "label": "TO",
+      "text": "TO HAVE THE RIGHT TENDERING NOR BY TLX"
+    },
+    {
+      "label": "TO",
+      "text": "TO HAVE THE RIGHT TENDERING NOR BY TLX OR"
+    },
+    {
+      "label": "TO",
+      "text": "TO HAVE THE RIGHT TENDERING NOR BY TLX OR FAX"
+    },
+    {
+      "label": "TO",
+      "text": "TO HAVE THE RIGHT TENDERING NOR BY TLX OR FAX OR"
+    },
+    {
+      "label": "TO",
+      "text": "TO HAVE THE RIGHT TENDERING NOR BY TLX OR FAX OR EMAIL"
+    },
+    {
+      "label": "TO",
+      "text": "TO STOP"
+    },
+    {
+      "label": "TO",
+      "text": "TO STOP ON"
+    },
+    {
+      "label": "TO",
+      "text": "TO STOP ON COMPLETION"
+    },
+    {
+      "label": "TO",
+      "text": "TO STOP ON COMPLETION OF"
+    },
+    {
+      "label": "TO",
+      "text": "TO STOP ON COMPLETION OF PHYSICAL"
+    },
+    {
+      "label": "TO",
+      "text": "TO STOP ON COMPLETION OF PHYSICAL LOADING"
+    },
+    {
+      "label": "TO",
+      "text": "TO STOP ON COMPLETION OF PHYSICAL LOADING OR"
+    },
+    {
+      "label": "TO",
+      "text": "TO STOP ON COMPLETION OF PHYSICAL LOADING OR DISCHARGING"
+    },
+    {
+      "label": "TO",
+      "text": "TO STOP ON COMPLETION OF PHYSICAL LOADING OR DISCHARGING OPERATION"
+    },
+    {
+      "label": "FROM",
+      "text": "FROM ANCHORAGE"
+    },
+    {
+      "label": "FROM",
+      "text": "FROM ANCHORAGE OR"
+    },
+    {
+      "label": "TO",
+      "text": "TO LOADING"
+    },
+    {
+      "label": "TO",
+      "text": "TO LOADING OR"
+    },
+    {
+      "label": "TO",
+      "text": "TO LOADING OR DISCHARGING"
+    },
+    {
+      "label": "TO",
+      "text": "TO LOADING OR DISCHARGING BERTH"
+    },
+    {
+      "label": "TO",
+      "text": "TO BALLASTING"
+    },
+    {
+      "label": "TO",
+      "text": "TO LOAD"
+    },
+    {
+      "label": "TO",
+      "text": "TO LOAD OR"
+    },
+    {
+      "label": "TO",
+      "text": "TO LOAD OR DISCHARGE"
+    },
+    {
+      "label": "TO",
+      "text": "TO COUNT"
+    },
+    {
+      "label": "TO",
+      "text": "TO COUNT"
+    },
+    {
+      "label": "TO",
+      "text": "TO COUNT AS"
+    },
+    {
+      "label": "TO",
+      "text": "TO COUNT AS LAYTIME"
+    },
+    {
+      "label": "TO",
+      "text": "TO COUNT AS LAYTIME ALL"
+    },
+    {
+      "label": "TO",
+      "text": "TO COUNT AS LAYTIME ALL ENDS"
+    },
+    {
+      "label": "TO",
+      "text": "TO OWNERS"
+    },
+    {
+      "label": "TO",
+      "text": "TO OWNERS OR"
+    },
+    {
+      "label": "TO",
+      "text": "TO OWNERS OR CHARTERERS"
+    },
+    {
+      "label": "TO",
+      "text": "TO TIME"
+    },
+    {
+      "label": "TO",
+      "text": "TO TIME SHEETS"
+    },
+    {
+      "label": "TO",
+      "text": "TO TIME SHEETS AND"
+    },
+    {
+      "label": "TO",
+      "text": "TO TIME SHEETS AND STATEMENTS"
+    },
+    {
+      "label": "TO",
+      "text": "TO TIME SHEETS AND STATEMENTS OF"
+    },
+    {
+      "label": "TO",
+      "text": "TO TIME SHEETS AND STATEMENTS OF FACTS"
+    },
+    {
+      "label": "TO",
+      "text": "TO TIME SHEETS AND STATEMENTS OF FACTS FOR"
+    },
+    {
+      "label": "TO",
+      "text": "TO TIME SHEETS AND STATEMENTS OF FACTS FOR LOADING"
+    },
+    {
+      "label": "TO",
+      "text": "TO TIME SHEETS AND STATEMENTS OF FACTS FOR LOADING AND"
+    },
+    {
+      "label": "TO",
+      "text": "TO TIME SHEETS AND STATEMENTS OF FACTS FOR LOADING AND DISCHARGE"
+    },
+    {
+      "label": "TO",
+      "text": "TO TIME SHEETS AND STATEMENTS OF FACTS FOR LOADING AND DISCHARGE PORTS"
+    },
+    {
+      "label": "TO",
+      "text": "TO BE"
+    },
+    {
+      "label": "TO",
+      "text": "TO BE PAYABLE"
+    },
+    {
+      "label": "TO",
+      "text": "TO BE PAYABLE WITHOUT"
+    },
+    {
+      "label": "TO",
+      "text": "TO BE PAYABLE WITHOUT DISCOUNT"
+    },
+    {
+      "label": "TO",
+      "text": "TO BE PAYABLE WITHOUT DISCOUNT AND"
+    },
+    {
+      "label": "TO",
+      "text": "TO BE PAYABLE WITHOUT DISCOUNT AND NON"
+    },
+    {
+      "label": "TO",
+      "text": "TO BE"
+    },
+    {
+      "label": "TO",
+      "text": "TO BE KEPT"
+    },
+    {
+      "label": "TO",
+      "text": "TO BE KEPT IN"
+    },
+    {
+      "label": "TO",
+      "text": "TO BE KEPT IN AGENTS"
+    },
+    {
+      "label": "TO",
+      "text": "TO BE KEPT IN AGENTS AND"
+    },
+    {
+      "label": "TO",
+      "text": "TO BE KEPT IN AGENTS AND TO"
+    },
+    {
+      "label": "TO",
+      "text": "TO BE KEPT IN AGENTS AND TO BE"
+    },
+    {
+      "label": "TO",
+      "text": "TO BE"
+    },
+    {
+      "label": "TO",
+      "text": "TO BE KEPT IN AGENTS AND TO BE RELEASED"
+    },
+    {
+      "label": "TO",
+      "text": "TO BE RELEASED"
+    },
+    {
+      "label": "TO",
+      "text": "TO BE KEPT IN AGENTS AND TO BE RELEASED IMMLY"
+    },
+    {
+      "label": "TO",
+      "text": "TO BE RELEASED IMMLY"
+    },
+    {
+      "label": "TO",
+      "text": "TO BE KEPT IN AGENTS AND TO BE RELEASED IMMLY UPON"
+    },
+    {
+      "label": "TO",
+      "text": "TO BE RELEASED IMMLY UPON"
+    },
+    {
+      "label": "TO",
+      "text": "TO BE KEPT IN AGENTS AND TO BE RELEASED IMMLY UPON RECEIPT"
+    },
+    {
+      "label": "TO",
+      "text": "TO BE RELEASED IMMLY UPON RECEIPT"
+    },
+    {
+      "label": "TO",
+      "text": "TO BE KEPT IN AGENTS AND TO BE RELEASED IMMLY UPON RECEIPT OF"
+    },
+    {
+      "label": "TO",
+      "text": "TO BE RELEASED IMMLY UPON RECEIPT OF"
+    },
+    {
+      "label": "TO",
+      "text": "TO PREVENT"
+    },
+    {
+      "label": "TO",
+      "text": "TO PREVENT LOADING"
+    },
+    {
+      "label": "TO",
+      "text": "TO PREVENT LOADING AND"
+    },
+    {
+      "label": "TO",
+      "text": "TO PREVENT LOADING AND REJECT"
+    },
+    {
+      "label": "TO",
+      "text": "TO PREVENT LOADING AND REJECT ANY"
+    },
+    {
+      "label": "TO",
+      "text": "TO PREVENT LOADING AND REJECT ANY DAMAGED"
+    },
+    {
+      "label": "TO",
+      "text": "TO PREVENT LOADING AND REJECT ANY DAMAGED CARGO"
+    },
+    {
+      "label": "TO",
+      "text": "TO PREVENT LOADING AND REJECT ANY DAMAGED CARGO THAT"
+    },
+    {
+      "label": "TO",
+      "text": "TO PREVENT LOADING AND REJECT ANY DAMAGED CARGO THAT MAY"
+    },
+    {
+      "label": "TO",
+      "text": "TO PREVENT LOADING AND REJECT ANY DAMAGED CARGO THAT MAY INVOLVE"
+    },
+    {
+      "label": "TO",
+      "text": "TO PREVENT LOADING AND REJECT ANY DAMAGED CARGO THAT MAY INVOLVE CLAUSING"
+    },
+    {
+      "label": "TO",
+      "text": "TO PREVENT LOADING AND REJECT ANY DAMAGED CARGO THAT MAY INVOLVE CLAUSING BS"
+    },
+    {
+      "label": "TO",
+      "text": "TO INSTRUCT"
+    },
+    {
+      "label": "TO",
+      "text": "TO INSTRUCT THE"
+    },
+    {
+      "label": "TO",
+      "text": "TO DISCHARGE"
+    },
+    {
+      "label": "TO",
+      "text": "TO DISCHARGE THE"
+    },
+    {
+      "label": "TO",
+      "text": "TO DISCHARGE THE CARGO"
+    },
+    {
+      "label": "TO",
+      "text": "TO DISCHARGE THE CARGO WITHOUT"
+    },
+    {
+      "label": "TO",
+      "text": "TO DISCHARGE THE CARGO WITHOUT PRESENTATION"
+    },
+    {
+      "label": "TO",
+      "text": "TO DISCHARGE THE CARGO WITHOUT PRESENTATION OF"
+    },
+    {
+      "label": "TO",
+      "text": "TO DISCHARGE THE CARGO WITHOUT PRESENTATION OF ORIGINAL"
+    },
+    {
+      "label": "TO",
+      "text": "TO DISCHARGE THE CARGO WITHOUT PRESENTATION OF ORIGINAL B"
+    },
+    {
+      "label": "FROM",
+      "text": "FROM CHRTRS"
+    },
+    {
+      "label": "FROM",
+      "text": "FROM CHRTRS AS"
+    },
+    {
+      "label": "FROM",
+      "text": "FROM CHRTRS AS PER"
+    },
+    {
+      "label": "TO",
+      "text": "TO BE"
+    },
+    {
+      "label": "TO",
+      "text": "TO BE SIGNED"
+    },
+    {
+      "label": "TO",
+      "text": "TO BE SIGNED ONLY"
+    },
+    {
+      "label": "TO",
+      "text": "TO BE SIGNED ONLY BY"
+    },
+    {
+      "label": "TO",
+      "text": "TO BE SIGNED ONLY BY CHRTRS"
+    },
+    {
+      "label": "TO",
+      "text": "TO BE SIGNED ONLY BY CHRTRS AUTHORIZED"
+    },
+    {
+      "label": "TO",
+      "text": "TO BE SIGNED ONLY BY CHRTRS AUTHORIZED OFFICERS"
+    },
+    {
+      "label": "TO",
+      "text": "TO BE SIGNED ONLY BY CHRTRS AUTHORIZED OFFICERS CLEARLY"
+    },
+    {
+      "label": "TO",
+      "text": "TO BE SIGNED ONLY BY CHRTRS AUTHORIZED OFFICERS CLEARLY STATING"
+    },
+    {
+      "label": "TO",
+      "text": "TO BE SIGNED ONLY BY CHRTRS AUTHORIZED OFFICERS CLEARLY STATING THE"
+    },
+    {
+      "label": "TO",
+      "text": "TO BE SIGNED ONLY BY CHRTRS AUTHORIZED OFFICERS CLEARLY STATING THE NAME"
+    },
+    {
+      "label": "TO",
+      "text": "TO BE SIGNED ONLY BY CHRTRS AUTHORIZED OFFICERS CLEARLY STATING THE NAME AND"
+    },
+    {
+      "label": "TO",
+      "text": "TO BE SIGNED ONLY BY CHRTRS AUTHORIZED OFFICERS CLEARLY STATING THE NAME AND RANK"
+    },
+    {
+      "label": "TO",
+      "text": "TO BE SIGNED ONLY BY CHRTRS AUTHORIZED OFFICERS CLEARLY STATING THE NAME AND RANK ON"
+    },
+    {
+      "label": "TO",
+      "text": "TO INSTRUCT"
+    },
+    {
+      "label": "TO",
+      "text": "TO INSTRUCT MASTER"
+    },
+    {
+      "label": "TO",
+      "text": "TO INSTRUCT MASTER TO"
+    },
+    {
+      "label": "TO",
+      "text": "TO INSTRUCT MASTER TO AUTHORIZE"
+    },
+    {
+      "label": "TO",
+      "text": "TO AUTHORIZE"
+    },
+    {
+      "label": "TO",
+      "text": "TO INSTRUCT MASTER TO AUTHORIZE CHARTERERS"
+    },
+    {
+      "label": "TO",
+      "text": "TO AUTHORIZE CHARTERERS"
+    },
+    {
+      "label": "TO",
+      "text": "TO ISSUE"
+    },
+    {
+      "label": "TO",
+      "text": "TO ISSUE AND"
+    },
+    {
+      "label": "TO",
+      "text": "TO ISSUE AND SIGN"
+    },
+    {
+      "label": "TO",
+      "text": "TO ISSUE AND SIGN BS"
+    },
+    {
+      "label": "FROM",
+      "text": "FROM HER"
+    },
+    {
+      "label": "FROM",
+      "text": "FROM HER REFUSAL"
+    },
+    {
+      "label": "FROM",
+      "text": "FROM HER REFUSAL NOT"
+    },
+    {
+      "label": "FROM",
+      "text": "FROM HER REFUSAL NOT TO"
+    },
+    {
+      "label": "FROM",
+      "text": "FROM HER REFUSAL NOT TO COUNT"
+    },
+    {
+      "label": "TO",
+      "text": "TO COUNT"
+    },
+    {
+      "label": "TO",
+      "text": "to count"
+    },
+    {
+      "label": "TO",
+      "text": "to count WWWW"
+    },
+    {
+      "label": "TO",
+      "text": "to count WWWW always"
+    },
+    {
+      "label": "TO",
+      "text": "to apply"
+    },
+    {
+      "label": "TO",
+      "text": "TO PERFORM"
+    },
+    {
+      "label": "TO",
+      "text": "TO PERFORM HOLD"
+    },
+    {
+      "label": "TO",
+      "text": "TO PERFORM HOLD INSPECTION"
+    },
+    {
+      "label": "TO",
+      "text": "TO PERFORM HOLD INSPECTION ON"
+    },
+    {
+      "label": "TO",
+      "text": "TO BE"
+    },
+    {
+      "label": "TO",
+      "text": "TO BE MUTUALLY"
+    },
+    {
+      "label": "TO",
+      "text": "TO BE MUTUALLY APPOINTED"
+    },
+    {
+      "label": "TO",
+      "text": "TO BE MUTUALLY APPOINTED FOR"
+    },
+    {
+      "label": "TO",
+      "text": "TO BE MUTUALLY APPOINTED FOR THE"
+    },
+    {
+      "label": "TO",
+      "text": "TO BE MUTUALLY APPOINTED FOR THE SECOND"
+    },
+    {
+      "label": "TO",
+      "text": "TO BE MUTUALLY APPOINTED FOR THE SECOND ONE"
+    },
+    {
+      "label": "TO",
+      "text": "TO BE MUTUALLY APPOINTED FOR THE SECOND ONE AND"
+    },
+    {
+      "label": "TO",
+      "text": "TO BE"
+    },
+    {
+      "label": "TO",
+      "text": "TO BE FOR"
+    },
+    {
+      "label": "TO",
+      "text": "TO BE FOR THE"
+    },
+    {
+      "label": "TO",
+      "text": "TO BE FOR THE PARTY"
+    },
+    {
+      "label": "TO",
+      "text": "TO BE FOR THE PARTY IN"
+    },
+    {
+      "label": "TO",
+      "text": "TO BE FOR THE PARTY IN FAULT"
+    },
+    {
+      "label": "TO",
+      "text": "TO APLY"
+    },
+    {
+      "label": "TO",
+      "text": "TO APPLY"
+    },
+    {
+      "label": "TO",
+      "text": "TO APPLY"
+    },
+    {
+      "label": "TO",
+      "text": "TO BE"
+    },
+    {
+      "label": "TO",
+      "text": "TO BE FOR"
+    },
+    {
+      "label": "TO",
+      "text": "TO BE FOR SHIPPERS"
+    },
+    {
+      "label": "TO",
+      "text": "TO BE"
+    },
+    {
+      "label": "TO",
+      "text": "TO BE FOR"
+    },
+    {
+      "label": "TO",
+      "text": "TO BE"
+    },
+    {
+      "label": "TO",
+      "text": "TO BE FOR"
+    },
+    {
+      "label": "TO",
+      "text": "TO BE FOR OWNERS"
+    },
+    {
+      "label": "TO",
+      "text": "TO BE FOR OWNERS ACCT"
+    },
+    {
+      "label": "TO",
+      "text": "TO HAVE"
+    },
+    {
+      "label": "TO",
+      "text": "TO HAVE THE"
+    },
+    {
+      "label": "TO",
+      "text": "TO HAVE THE OPTION"
+    },
+    {
+      "label": "TO",
+      "text": "TO HAVE THE OPTION TO"
+    },
+    {
+      "label": "TO",
+      "text": "TO HAVE THE OPTION TO SPLIT"
+    },
+    {
+      "label": "TO",
+      "text": "TO SPLIT"
+    },
+    {
+      "label": "TO",
+      "text": "TO HAVE THE OPTION TO SPLIT TO"
+    },
+    {
+      "label": "TO",
+      "text": "TO SPLIT TO"
+    },
+    {
+      "label": "TO",
+      "text": "TO HAVE THE OPTION TO SPLIT TO SMALLER"
+    },
+    {
+      "label": "TO",
+      "text": "TO SPLIT TO SMALLER"
+    },
+    {
+      "label": "TO",
+      "text": "TO SMALLER"
+    },
+    {
+      "label": "TO",
+      "text": "TO HAVE THE OPTION TO SPLIT TO SMALLER QUANTITIES"
+    },
+    {
+      "label": "TO",
+      "text": "TO SPLIT TO SMALLER QUANTITIES"
+    },
+    {
+      "label": "TO",
+      "text": "TO SMALLER QUANTITIES"
+    },
+    {
+      "label": "TO",
+      "text": "TO HAVE THE OPTION TO SPLIT TO SMALLER QUANTITIES THE"
+    },
+    {
+      "label": "TO",
+      "text": "TO SPLIT TO SMALLER QUANTITIES THE"
+    },
+    {
+      "label": "TO",
+      "text": "TO SMALLER QUANTITIES THE"
+    },
+    {
+      "label": "TO",
+      "text": "TO HAVE THE OPTION TO SPLIT TO SMALLER QUANTITIES THE ORIGINAL"
+    },
+    {
+      "label": "TO",
+      "text": "TO SPLIT TO SMALLER QUANTITIES THE ORIGINAL"
+    },
+    {
+      "label": "TO",
+      "text": "TO SMALLER QUANTITIES THE ORIGINAL"
+    },
+    {
+      "label": "TO",
+      "text": "TO HAVE THE OPTION TO SPLIT TO SMALLER QUANTITIES THE ORIGINAL ISSUED"
+    },
+    {
+      "label": "TO",
+      "text": "TO SPLIT TO SMALLER QUANTITIES THE ORIGINAL ISSUED"
+    },
+    {
+      "label": "TO",
+      "text": "TO SMALLER QUANTITIES THE ORIGINAL ISSUED"
+    },
+    {
+      "label": "TO",
+      "text": "TO HAVE THE OPTION TO SPLIT TO SMALLER QUANTITIES THE ORIGINAL ISSUED BS"
+    },
+    {
+      "label": "TO",
+      "text": "TO SPLIT TO SMALLER QUANTITIES THE ORIGINAL ISSUED BS"
+    },
+    {
+      "label": "TO",
+      "text": "TO SMALLER QUANTITIES THE ORIGINAL ISSUED BS"
+    },
+    {
+      "label": "TO",
+      "text": "TO BE"
+    },
+    {
+      "label": "TO",
+      "text": "TO THE"
+    },
+    {
+      "label": "TO",
+      "text": "TO THE OWNERS"
+    },
+    {
+      "label": "TO",
+      "text": "TO THE OWNERS OR"
+    },
+    {
+      "label": "TO",
+      "text": "TO THE OWNERS OR THEIR"
+    },
+    {
+      "label": "TO",
+      "text": "TO REMAIN"
+    },
+    {
+      "label": "TO",
+      "text": "TO REMAIN THE"
+    },
+    {
+      "label": "TO",
+      "text": "TO REMAIN THE SAME"
+    },
+    {
+      "label": "TO",
+      "text": "TO REMAIN THE SAME AND"
+    },
+    {
+      "label": "TO",
+      "text": "TO REMAIN THE SAME AND MASTER"
+    },
+    {
+      "label": "TO",
+      "text": "TO BE"
+    },
+    {
+      "label": "TO",
+      "text": "TO\nINSERT"
+    },
+    {
+      "label": "TO",
+      "text": "TO\nINSERT DIFFERENT"
+    },
+    {
+      "label": "TO",
+      "text": "TO\nINSERT DIFFERENT NAMES"
+    },
+    {
+      "label": "TO",
+      "text": "TO\nINSERT DIFFERENT NAMES OF"
+    },
+    {
+      "label": "TO",
+      "text": "TO\nINSERT DIFFERENT NAMES OF SHIPPERS"
+    },
+    {
+      "label": "TO",
+      "text": "TO\nINDEMNIFY"
+    },
+    {
+      "label": "TO",
+      "text": "TO\nINDEMNIFY OWNERS"
+    },
+    {
+      "label": "TO",
+      "text": "TO\nINDEMNIFY OWNERS FOR"
+    },
+    {
+      "label": "TO",
+      "text": "TO\nINDEMNIFY OWNERS FOR ANY"
+    },
+    {
+      "label": "TO",
+      "text": "TO\nINDEMNIFY OWNERS FOR ANY CONSEQUENCE"
+    },
+    {
+      "label": "TO",
+      "text": "TO\nINDEMNIFY OWNERS FOR ANY CONSEQUENCE ARISING"
+    },
+    {
+      "label": "TO",
+      "text": "TO\nINDEMNIFY OWNERS FOR ANY CONSEQUENCE ARISING WHATSOEVER"
+    },
+    {
+      "label": "TO",
+      "text": "TO\nINDEMNIFY OWNERS FOR ANY CONSEQUENCE ARISING WHATSOEVER FOR"
+    },
+    {
+      "label": "TO",
+      "text": "TO\nINDEMNIFY OWNERS FOR ANY CONSEQUENCE ARISING WHATSOEVER FOR SAME"
+    },
+    {
+      "label": "TO",
+      "text": "TO BE"
+    },
+    {
+      "label": "TO",
+      "text": "TO BE RESPONSIBLE"
+    },
+    {
+      "label": "TO",
+      "text": "TO BE RESPONSIBLE FOR"
+    },
+    {
+      "label": "TO",
+      "text": "TO BE RESPONSIBLE FOR THE"
+    },
+    {
+      "label": "TO",
+      "text": "TO BE RESPONSIBLE FOR THE DISTRIBUTION"
+    },
+    {
+      "label": "TO",
+      "text": "TO BE RESPONSIBLE FOR THE DISTRIBUTION OF"
+    },
+    {
+      "label": "TO",
+      "text": "TO VARIOUS"
+    },
+    {
+      "label": "TO",
+      "text": "TO VARIOUS RECEIVERS"
+    },
+    {
+      "label": "TO",
+      "text": "TO SIGN"
+    },
+    {
+      "label": "TO",
+      "text": "TO SIGN BS"
+    },
+    {
+      "label": "TO",
+      "text": "TO THE"
+    },
+    {
+      "label": "TO",
+      "text": "TO THE TERMS"
+    },
+    {
+      "label": "TO",
+      "text": "TO HAVE"
+    },
+    {
+      "label": "TO",
+      "text": "TO HAVE MATE"
+    },
+    {
+      "label": "TO",
+      "text": "TO BE"
+    },
+    {
+      "label": "TO",
+      "text": "TO BE ISSUED"
+    },
+    {
+      "label": "TO",
+      "text": "TO BE ISSUED BY"
+    },
+    {
+      "label": "TO",
+      "text": "TO INSERT"
+    },
+    {
+      "label": "TO",
+      "text": "TO INSERT DIFF"
+    },
+    {
+      "label": "TO",
+      "text": "TO INSERT DIFF NAMES"
+    },
+    {
+      "label": "TO",
+      "text": "TO INSERT DIFF NAMES OF"
+    },
+    {
+      "label": "TO",
+      "text": "TO INSERT DIFF NAMES OF SHIPPERS"
+    },
+    {
+      "label": "TO",
+      "text": "TO APPLY"
+    },
+    {
+      "label": "TO",
+      "text": "TO COUNT"
+    },
+    {
+      "label": "TO",
+      "text": "TO COUNT AS"
+    },
+    {
+      "label": "TO",
+      "text": "TO COUNT AS LAYTIME"
+    },
+    {
+      "label": "TO",
+      "text": "TO COUNT AS LAYTIME EVEN"
+    },
+    {
+      "label": "TO",
+      "text": "TO COUNT AS LAYTIME EVEN IF"
+    },
+    {
+      "label": "TO",
+      "text": "TO COUNT AS LAYTIME EVEN IF VESSEL"
+    },
+    {
+      "label": "TO",
+      "text": "TO COUNT AS LAYTIME EVEN IF VESSEL ON"
+    },
+    {
+      "label": "FROM",
+      "text": "FROM VESSEL"
+    },
+    {
+      "label": "TO",
+      "text": "TO COUNT"
+    },
+    {
+      "label": "TO",
+      "text": "TO COUNT AS"
+    },
+    {
+      "label": "TO",
+      "text": "TO COUNT AS LAYTIME"
+    },
+    {
+      "label": "TO",
+      "text": "TO COUNT AS LAYTIME EVEN"
+    },
+    {
+      "label": "TO",
+      "text": "TO COUNT AS LAYTIME EVEN IF"
+    },
+    {
+      "label": "TO",
+      "text": "TO COUNT AS LAYTIME EVEN IF THE"
+    },
+    {
+      "label": "TO",
+      "text": "TO COUNT AS LAYTIME EVEN IF THE VESSEL"
+    },
+    {
+      "label": "TO",
+      "text": "TO COUNT AS LAYTIME EVEN IF THE VESSEL ON"
+    },
+    {
+      "label": "TO",
+      "text": "TO COUNT"
+    },
+    {
+      "label": "TO",
+      "text": "TO COUNT AS"
+    },
+    {
+      "label": "TO",
+      "text": "TO COUNT AS LAYTIME"
+    },
+    {
+      "label": "TO",
+      "text": "TO COUNT AS LAYTIME EVEN"
+    },
+    {
+      "label": "TO",
+      "text": "TO COUNT AS LAYTIME EVEN IF"
+    },
+    {
+      "label": "TO",
+      "text": "TO COUNT AS LAYTIME EVEN IF VESSEL"
+    },
+    {
+      "label": "TO",
+      "text": "TO COUNT AS LAYTIME EVEN IF VESSEL ON"
+    },
+    {
+      "label": "TO",
+      "text": "TO COUNT"
+    },
+    {
+      "label": "TO",
+      "text": "TO COUNT AS"
+    },
+    {
+      "label": "TO",
+      "text": "TO COUNT AS LAYTIME"
+    },
+    {
+      "label": "TO",
+      "text": "TO COUNT AS LAYTIME EVEN"
+    },
+    {
+      "label": "TO",
+      "text": "TO COUNT AS LAYTIME EVEN IF"
+    },
+    {
+      "label": "TO",
+      "text": "TO COUNT AS LAYTIME EVEN IF VESSEL"
+    },
+    {
+      "label": "TO",
+      "text": "TO COUNT AS LAYTIME EVEN IF VESSEL ON"
+    },
+    {
+      "label": "TO",
+      "text": "TO COUNT"
+    },
+    {
+      "label": "TO",
+      "text": "TO COUNT AS"
+    },
+    {
+      "label": "TO",
+      "text": "TO COUNT AS LAYTIME"
+    },
+    {
+      "label": "TO",
+      "text": "TO COUNT AS LAYTIME WHEN"
+    },
+    {
+      "label": "TO",
+      "text": "TO COUNT AS LAYTIME WHEN THE"
+    },
+    {
+      "label": "TO",
+      "text": "TO COUNT AS LAYTIME WHEN THE VESSEL"
+    },
+    {
+      "label": "TO",
+      "text": "TO COUNT AS LAYTIME WHEN THE VESSEL IN"
+    },
+    {
+      "label": "TO",
+      "text": "TO COUNT AS LAYTIME WHEN THE VESSEL IN BERTH"
+    },
+    {
+      "label": "TO",
+      "text": "TO COUNT AS LAYTIME WHEN THE VESSEL IN BERTH OR"
+    },
+    {
+      "label": "TO",
+      "text": "TO COUNT AS LAYTIME WHEN THE VESSEL IN BERTH OR NOT"
+    },
+    {
+      "label": "TO",
+      "text": "TO COUNT"
+    },
+    {
+      "label": "TO",
+      "text": "TO BE"
+    },
+    {
+      "label": "TO",
+      "text": "TO BE SEALED"
+    },
+    {
+      "label": "TO",
+      "text": "TO BE SEALED BY"
+    },
+    {
+      "label": "TO",
+      "text": "TO BE"
+    },
+    {
+      "label": "TO",
+      "text": "TO BE ON"
+    },
+    {
+      "label": "TO",
+      "text": "TO BE ON CHRTRS"
+    },
+    {
+      "label": "TO",
+      "text": "TO BE ON CHRTRS TIME"
+    },
+    {
+      "label": "TO",
+      "text": "TO BE ON CHRTRS TIME AND"
+    },
+    {
+      "label": "TO",
+      "text": "TO BE ON CHRTRS TIME AND ACCNT"
+    },
+    {
+      "label": "TO",
+      "text": "TO APPLY"
+    },
+    {
+      "label": "TO",
+      "text": "TO APPLY"
+    },
+    {
+      "label": "TO",
+      "text": "to any"
+    },
+    {
+      "label": "TO",
+      "text": "to any entities"
+    },
+    {
+      "label": "TO",
+      "text": "to any entities or"
+    },
+    {
+      "label": "TO",
+      "text": "to any entities or individuals"
+    }
+  ]
+}
